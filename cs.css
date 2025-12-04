@@ -1,0 +1,58 @@
+#box1{
+    width: 200px;
+    height: 200px;
+    background-color: aquamarine;
+    position:sticky;
+    top: 00px;
+    left: 00px;
+}
+#box2{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(29, 29, 203);
+    position: absolute;
+    top: 50px;
+    left: 50px;
+}
+body{
+    background-image: url(DES.pn);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+#container{
+    border: 2px solid;
+}
+#container  p{
+    background-color: yellow;
+}
+a:link{
+    color: rgb(127, 127, 172);
+}
+a:hover{
+    color: brown;
+    font-size: 2em;
+}
+a:active{
+    color: black;
+    font-size: 3em;
+}
+li:hover{
+    color:aqua;
+}
+li:not(:hover){
+    background-color: grey;
+}
+li:nth-child(even){
+    background-color: red;
+}
+#greeting p{
+    color: blueviolet;
+    size: 3em;
+    padding: 10px;
+    display: none;
+}
+#greeting:hover p{
+    display: block;
+}

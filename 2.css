@@ -1,0 +1,98 @@
+h1::first-letter{
+    font-size: 2em;
+    font-style: italic;
+}
+p::first-line{
+    background-color: beige;
+}
+body::selection{
+    color:rgb(243, 148, 148);
+    background-color: rgb(70, 70, 70);
+}
+#fruit li::before{
+    content: "🤳";
+}
+#oran::after{
+    content: "🍎";
+}
+#fruit li::marker{
+    content: "☑";
+    color: rgba(100, 214, 134, 0.333);
+    size: 1.2em;
+}
+.pagination{
+    text-align: center;
+}
+.pagination a{
+    color: black;
+    text-decoration: none;
+    padding: 8px 15px;
+    display: inline-block;
+}
+.pagination a.active{
+    background-color:rgb(60, 198, 60);
+    font-weight: bold;
+    border-radius: 5px;
+}
+.pagination a:hover:not(.active){
+    background-color: rgb(206, 205, 205);
+    border-radius: 5px;
+}
+.dropdown{
+    display: inline;
+}
+.dropdown button{
+    background-color: rgb(125, 231, 231);
+    color: black;
+    padding: 15px 20px;
+    border: 2x solid;
+    border-radius: 4px;
+    cursor: pointer;
+    }
+.dropdown a{
+    display: block;
+    color: black;
+    padding: 10px 15px;
+    text-decoration: none;
+}
+.dropdown .content{
+    background-color: bisque;
+    max-width: 250px;
+    position: sticky;
+    box-shadow: 2px 2px 5px rgb(193, 193, 5);
+    display: none;
+}
+.dropdown:hover .content{
+    display: flex;
+}
+.dropdown:hover button{
+    background-color: rgb(163, 160, 160);
+}
+.dropdown a:hover{
+    background-color: rgb(194, 194, 194);
+}
+.navbar ul{
+    list-style-type: none;
+    background-color: rgb(163, 161, 161);
+    padding: 0px;
+    margin:0px;
+    overflow: hidden;
+}
+.navbar a{
+    color: white;
+    text-decoration: none;
+    padding: 20px;
+    display: block;
+    text-align: center;
+    justify-content: space-;
+}
+.navbar a:hover{
+    background-color:rgb(219, 101, 101) ;
+}
+.navbar li{
+    float: left;
+    justify-content: space-between;
+}
+main{
+    margin: 20px;
+}
